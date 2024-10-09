@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ main{
+    background-color:   hsl(13, 31%, 94%);
+ }
+.position-relative {
+    position: relative; /* Ensures that the button can be positioned relative to this container */
+}
+.add-to-cart{
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    gap:0.3vw;
+    justify-content: center;
+    padding:2px 3px;
+    position: absolute; 
+    bottom: 120px; /* Moves the button below the image */
+    left: 50%; 
+    transform: translateX(-50%); Adjusts the position to the left by half of the button's width
+    background-color: #fff; 
+    border: none; 
+    width:120px;
+}
+.add-to-cart span{
+    font-size: 16px;
+    width:100%;
+}
+.add-to-cart:hover{
+    border:1px solid hsl(14, 86%, 42%);
+    cursor: pointer; 
+}
+.add-to-cart.red {
+    background-color: red;
+    color: white;
+}
+
+.card-title{
+    padding-top:1vh;
+    color:hsl(20, 50%, 98%);
+}
+.card-text,.priceVal{
+    font-size:18px;
+
+}
+.priceVal{
+    color:hsl(14, 86%, 42%);
+    margin-bottom:20px;
+}
+#cart{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

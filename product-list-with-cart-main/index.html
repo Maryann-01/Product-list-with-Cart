@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+
+<body>
+  <main class="pt-4">
+    <section class="container">
+      <div class="row mb-4 mb-lg-12">
+        <h1 class="head col-12">Desserts</h1> 
+      </div>
+
+      <div class="row mt-lg-12">
+        <div class="col-12 col-lg-9">
+          <div id="content" class="row">
+            <!-- Dynamic content will be inserted here  -->
+          </div>
+        </div>
+        
+        <!-- Cart Section -->
+        <div class="col-12 col-lg-3" style="margin-top: -30px;">
+          <div class="card align-self-start">
+            <div class="card-body">
+              <h5 class="card-title">Your Cart <span class="num-Price">(0)</span></h5>
+              <!-- Dynamically updated cart items will be here -->
+              <div id="cart">
+                <img src="./assets/images/illustration-empty-cart.svg"/>
+                <p>Your added items will appear here</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Mmesoma Maryann</a>.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- Link to your JavaScript file where the logic for cart functionality is implemented -->
+  <script src="index.js" defer></script>
+</body>
+
+</html>
